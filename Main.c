@@ -26,7 +26,7 @@ int    main(void)
     printf("(std)%x, %X\n", 3500, -3500);
     ft_printf("(ft)%p, %p \n", "aaaaaa", NULL);
     printf("(std)%p, %p \n", "aaaaaa", NULL);
-    ftprintf("\n(ft)%%%%%%%%%d, %%%s\n", INTMIN, "string%%%");
+    ft_printf("\n(ft)%%%%%%%%%d, %%%s\n", INT_MIN, "string%%%");
     printf("\n(std)%%%%%%%%%d, %%%s\n", INT_MIN, "string%%%");
     //ft_printf("%s%w (ft)\n", "aaaaaa"); // works without compiler flags
     //printf("%s%w (std)\n", "aaaaaa"); // works without compiler flags
